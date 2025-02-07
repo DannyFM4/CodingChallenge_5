@@ -80,3 +80,12 @@ let sales = [500, 300, 200, 400];  // declares array
 
 // line 83 uses the reduce method to add all of the sales in the array together and get the total, while logging it in the console
 console.log(sales.reduce((totalSale, sale) => totalSale + sale, 0));
+
+
+// Task 7: find() Method
+
+let customers = ["Adam", "Brian", "Charlie", "Daniel"];  // declares array
+
+
+//  line 91 uses the find method to find a specific string in the array and log it in the console
+console.log(customers.find((customer) => customer === "Charlie"));
