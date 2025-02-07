@@ -72,3 +72,11 @@ let invetory = [2, 0, 3, 9, 7];  // declares array
 
 // line 74 is filtering the "inventory" array to not show the products that have 0 in stock, and logging it in the console
 console.log(invetory.filter((stock) => stock > 0));
+
+
+// Task 6: Reduce Method
+
+let sales = [500, 300, 200, 400];  // declares array
+
+// line 83 uses the reduce method to add all of the sales in the array together and get the total, while logging it in the console
+console.log(sales.reduce((totalSale, sale) => totalSale + sale, 0));
