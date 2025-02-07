@@ -31,3 +31,24 @@ let order = {   // lines below declare an object with 3 properties and a method 
 
 
 order.displayOrder();   // This line calls the method in the object, which then logs the properties in the console
+
+
+// Task 3: Array Manipulation (push, pop, shift, unshift)
+
+
+// line 40 declares an array
+let cartItems = ["Socks", "Underwear", "Shoes"];
+
+// line 43 add the string "pants" to the end of the array
+cartItems.push("Pants");
+
+// line 46 removes the last item in the array
+cartItems.pop();
+
+// line 49 adds the string "T-Shirt" to the beginning of the array
+cartItems.unshift("T-Shirt");
+
+// line 52 removes the first item in the array
+cartItems.shift();
+
+console.log(cartItems);
