@@ -65,3 +65,10 @@ let prices = [100, 200, 300];
 console.log(prices.map((price) => price - (price * .1)));
 
 
+// Task 5: Filter Method
+
+let invetory = [2, 0, 3, 9, 7];  // declares array
+
+
+// line 74 is filtering the "inventory" array to not show the products that have 0 in stock, and logging it in the console
+console.log(invetory.filter((stock) => stock > 0));
