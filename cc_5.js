@@ -52,3 +52,16 @@ cartItems.unshift("T-Shirt");
 cartItems.shift();
 
 console.log(cartItems);
+
+
+// Task 4: Map Method
+
+
+// declaring an array with numbers
+let prices = [100, 200, 300];
+
+
+// using the map syntax to go through the array and apply a 10% discount to each number and logging it in the console
+console.log(prices.map((price) => price - (price * .1)));
+
+
