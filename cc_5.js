@@ -89,3 +89,15 @@ let customers = ["Adam", "Brian", "Charlie", "Daniel"];  // declares array
 
 //  line 91 uses the find method to find a specific string in the array and log it in the console
 console.log(customers.find((customer) => customer === "Charlie"));
+
+
+// Task 8: Function Declaration
+
+
+function calculateTax(amount, taxRate) { // this function calculates the sales tax on a purchase
+    return amount * taxRate;
+};
+
+
+// line 103 logs the sales tax on a $100 purchase in the console using template literals
+console.log(`The tax on your purchase is: $${calculateTax(100, .06)}`);
