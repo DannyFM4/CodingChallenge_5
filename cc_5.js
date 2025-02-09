@@ -112,3 +112,12 @@ function applyDiscount(price, discount) { // this function calculates the discou
 
 //  line 113 logs the discounted price in the console by using the function above and template literals
 console.log(`The discounted price is: $${applyDiscount(100, 0.2)}`);
+
+
+// Task 10: Arrow Function
+
+//  line 120 is an arrow function that calculates the amount of loyalty points earned after making a purchase by dividing the price by 10
+const calculatePoints = (purchaseAmount) => purchaseAmount / 10;
+
+//  line 123 logs the amount of loyalty points earned in the console using templae literals
+console.log(`You earned ${calculatePoints(500)} reward points!!`); // 
