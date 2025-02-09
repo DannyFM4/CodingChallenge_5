@@ -101,3 +101,14 @@ function calculateTax(amount, taxRate) { // this function calculates the sales t
 
 // line 103 logs the sales tax on a $100 purchase in the console using template literals
 console.log(`The tax on your purchase is: $${calculateTax(100, .06)}`);
+
+
+//  Task 9: Function Expression
+
+
+function applyDiscount(price, discount) { // this function calculates the discounted price of a purchase 
+    return price - (price * discount);
+};
+
+//  line 113 logs the discounted price in the console by using the function above and template literals
+console.log(`The discounted price is: $${applyDiscount(100, 0.2)}`);
